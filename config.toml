@@ -7,7 +7,7 @@ googleAnalytics = ""
 
 [params]
     author = "Aron Trauring"
-    description = "The Mythical man Month Method Blog"
+    description = "The Mythical Man Month Method Blog"
     githubUsername = "AronT-TLV"
     accent = "red"
     showBorder = true
@@ -32,6 +32,11 @@ googleAnalytics = ""
     name = "Projects"
     weight = 3
 
+[[menu.main]]
+    url = "/About"
+    name = "About"
+    weight = 4
+
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
 # The list of available icons can be found at http://fontawesome.io/icons/
@@ -42,7 +47,7 @@ googleAnalytics = ""
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/AronT-TLV/"
+    url = "https://github.com/FourMInfo/"
     name = "github"
     weight = 2
 
@@ -52,11 +57,16 @@ googleAnalytics = ""
     weight = 3
 
 [[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
+    url = "https://www.linkedin.com/in/aron-trauring-a0540/"
     name = "linkedin"
     weight = 4
 
 [[menu.icon]]
-    url = "https://www.stackoverflow.com/username/"
-    name = "stack-overflow"
+    url = "https://www.dropbox.com/s/kticf27vc5nvkvn/Aron%20Resume.pdf?dl=0"
+    name = "file-text"
     weight = 5
+
+[[menu.icon]]
+    url = "https://www.stackoverflow.com/users/6079539/aron-t"
+    name = "stack-overflow"
+    weight = 6
