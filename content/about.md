@@ -6,7 +6,6 @@ draft: false
 
 Almost 15 years ago I started a blog call FourM. The name of the blog was based on an [article][1] I wrote where I give a brief historical survey of software development methods, culminating in agile methods. Even though the article is 15 years old, it still has many interesting things to say. 
 
----- 
 
 Knowing that you likely are *not* going to read it, here is a quote from the introduction which summarizes my thinking on our craft:
  
@@ -42,7 +41,7 @@ On the hosting [Github site][6] there are wikis with more practical, hands-on gu
 ## Useful External Resources
 The technology behind this Github Pages blog, is itself a great example of some of the new tools and techniques. It is created using the [Hugo static site generator][7]. I'll explain why I chose Hugo in a future post.
 
-[1]:	/post/Articles/SoftMeth.pdf
+[1]:	/Articles/SoftMeth.pdf
 [2]:	http://github.com/fourminfo
 [3]:	http://old.fourm.info:8082/
 [4]:	https://plone.org
