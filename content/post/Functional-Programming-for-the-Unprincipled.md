@@ -2,7 +2,7 @@
 title: "Functional Programming for the Unprincipled"
 date: 2018-02-28
 tags: ["FP", "scala", "rant"]
-draft: false
+draft: true
 ---
 
 ## Anti-Intellectual Semantics
