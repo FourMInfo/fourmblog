@@ -1,6 +1,6 @@
 ---
 title: "Functional Programming for the Unprincipled"
-date: 2018-02-28
+date: 2018-03-02
 tags: ["FP", "scala", "rant"]
 draft: false
 ---
@@ -8,8 +8,9 @@ draft: false
 ## Anti-Intellectual Semantics
 Not too long ago, someone on Gitter called me (or, more precisely, something I said) “anti-intellectual.” I was more than a bit amused, and somewhat surprised and pleased by this accusation. The fact is, for much of my life I have been labeled by both friends and family, often in an accusatory tone, as being _overly_ intellectual. The funniest part about this interchange is that it was part of a discussion on how prevalent is the use of _**functional programming (FP)**_ by Scala programmers!
 
-This all began when I read a Twitter comment by one of the luminaries behind the ScalaZ FP framework. He said:
-> Scalaz 8's competition is NOT Scalaz 7/Cats/etc. “No one’” uses these. The real competition is non-FP in Scala, i.e. 99% of the market.
+This all began when I read a Twitter comment by one of the luminaries behind the ScalaZ FP framework. He said: 
+
+> Scalaz 8's competition is NOT Scalaz 7/Cats/etc. “No one’” uses these. The real competition is non-FP in Scala, i.e. 99% of the market._
 
 I was gobsmacked by this claim that essentially 99% of Scala programmers are not doing functional programming. Even if we discount it as hyperbole, it still makes no sense. After all, anyone with even the slightest acquaintance with Scala is aware that Martin Odersky created this language with the intention that it allow programmers to use both the OOP and FP paradigms. Odersky himself evangelizes the functional programming aspects of Scala in his books, courses, lectures and talks about Scala. 
 
@@ -82,6 +83,7 @@ So this type of functional programming, the “real” functional programming, m
 
 ## Don’t Put the Ring On!
 [This article][7] essentially provides most of the reasons why people, even people who claim to be sympathetic to FP, don’t want to do it. Put aside his comparison of Go and Scala, which is just apples and oranges, and his exaggerated critiques of Scala. What’s relevant here are the attitudes he displays about pure FP. Tl;dr: 
+
 1.  Pure FP requires you to think hard before you do it. You write less code so you are less productive.
 2.  Pure FP  requires you to think hard and it’s complicated. Hence very few programmers want to bother to learn it.
 3.  Pure FP code is obscure to read and full of weird math thingees.
@@ -97,7 +99,7 @@ Behavioral science can give us additional insight on why programmers don’t lea
 Moreover, it is definitely true that the concepts needed for learning how to properly handle effects and the programming frameworks that are used for doing so are not easy or even relatively easy. They require effort to learn how to read and even more effort to learn how to use properly.  Behavioral science also teaches us, that by nature humans are lazy. So there is a great deal of psychological inertia to overcome in learning something difficult like pure FP. 
 
 ## FP for the Unprincipled
-While the ultimate measure of a successful software project is the agile definition _working code that meets customer needs_, excellent systems are also reliable (safe, secure, consistent) and maintainable (easy to change, easy to bring on new team members). We all know that many (perhaps most) software systems are the opposite of that! As[this article][9]points out, using pure FP while not a goal in itself, is one important means for helping us programmers create excellent software. 
+While the ultimate measure of a successful software project is the agile definition _working code that meets customer needs_, excellent systems are also reliable (safe, secure, consistent) and maintainable (easy to change, easy to bring on new team members). We all know that many (perhaps most) software systems are the opposite of that! As [this article][9]points out, using pure FP while not a goal in itself, is one important means for helping us programmers create excellent software. 
 
 So how do we encourage programmers to use FP (and other “hard”) tools to become better at our craft? There are three methods that behavioral economics teaches us we can use to change human behavior: persuasion, education, and choice architecture. Let’s look at all three.
 
@@ -113,7 +115,7 @@ Avoid language that sounds like you are judging other people, even if that is no
 
 On the positive side, work on broadening the tent of functional programming. Sure FP is not simply pipelines, and pipelines are not necessarily FP. But thinking of FP in its broadest sense, allows you point out to programmers that they have likely already taken their first steps into the FP world. People often joke that Scala is a “gateway drug” to Haskell. Leverage that idea to persuade people FP really isn’t that scary. 
 
-In fact, what got me moving down the path of learning pure FP, was using optics in the _Circe_ library. I still don’t fully understand them, but they were easy to use and made my code simpler and far easier to understand than the alternatives.  Using _Option_ or _Either_ or _for comprehensions_may be just baby steps in the big FP picture. But those steps can be a springboard to persuading programmers that FP is worthwhile and can be usefully applied even before you fully understand it. They also provide simple examples that can help in educating novices.
+In fact, what got me moving down the path of learning pure FP, was using optics in the _Circe_ library. I still don’t fully understand them, but they were easy to use and made my code simpler and far easier to understand than the alternatives.  Using _Option_ or _Either_ or _for comprehensions_ may be just baby steps in the big FP picture. But those steps can be a springboard to persuading programmers that FP is worthwhile and can be usefully applied even before you fully understand it. They also provide simple examples that can help in educating novices.
 
 Which is a good segue into the topic of education. Currently there aren’t enough resources for novices to help us wrap our head around pure FP.  The people in the vanguard of adopting pure FP are the smartest programmers out there. Very smart people often have great difficulty being able to get down to the level of the rest of us. Moreover many of the smartest people are busy doing FP, not necessarily teaching it. 
 
