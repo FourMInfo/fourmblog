@@ -8,8 +8,6 @@ draft: false
 ## Frodo, Don’t Wear the Ring!
 The [first part of this article][1] discussed why FP in general, and pure FP in particular, is a critically important programming paradigm that all software developers should add to their tool chest. We concluded by asking why isn’t the whole programming world rushing to adopt functional programming? We answer that here.
 
-Some might object that if FP is so “useful” and “natural” as I claim, why does it have a reputation for being so difficult and why isn’t it used more widely? 
-
 First, let’s eliminate the argument that it’s the _mathematics_ aspect that scares people off. Even if you are not a [mathematical Platonist][2](a position I admit has great appeal for me personally) who believes our brains are hard-wired to discover mathematical truths, mathematics is still an almost universal tool set for humans, and has been throughout history. In almost every country in the world today, at least the basic tools of mathematics are part of every person’s education. So even if our brains aren’t hardwired for mathematical discovery, mathematics is still a fundamental human tool. Certainly anyone who does programming has studied more than the standard amount of mathematics and mathematics is part of the computer science curriculum. So lack of familiarity or comfort with math is not the main barrier for programmers to use FP.
 
 [This article][3] essentially provides most of the reasons (excuses) why people, even people who claim to be sympathetic to FP, don’t want to do it. Put aside his comparison of Go and Scala, which is just apples and oranges, and his exaggerated critiques of Scala. What’s relevant are the attitudes he displays about pure FP. Tl;dr: 
